@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0785692BBAD32300F239B1 /* TaxisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0785682BBAD32300F239B1 /* TaxisApp.swift */; };
+		AC07856B2BBAD32300F239B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC07856A2BBAD32300F239B1 /* ContentView.swift */; };
+		AC07856D2BBAD32300F239B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC07856C2BBAD32300F239B1 /* Assets.xcassets */; };
+		AC0785702BBAD32300F239B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC07856F2BBAD32300F239B1 /* Preview Assets.xcassets */; };
+		AC07857A2BBAD32300F239B1 /* TaxisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0785792BBAD32300F239B1 /* TaxisTests.swift */; };
+		AC0785842BBAD32300F239B1 /* TaxisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0785832BBAD32300F239B1 /* TaxisUITests.swift */; };
+		AC0785862BBAD32300F239B1 /* TaxisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0785852BBAD32300F239B1 /* TaxisUITestsLaunchTests.swift */; };
+		AC0785992BBAD3DB00F239B1 /* one.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0785982BBAD3DB00F239B1 /* one.swift */; };
+		AC07859B2BBAD3E500F239B1 /* two.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC07859A2BBAD3E500F239B1 /* two.swift */; };
+		AC07859D2BBAD3EB00F239B1 /* three.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC07859C2BBAD3EB00F239B1 /* three.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC0785762BBAD32300F239B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC07855D2BBAD32300F239B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0785642BBAD32300F239B1;
+			remoteInfo = Taxis;
+		};
+		AC0785802BBAD32300F239B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC07855D2BBAD32300F239B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0785642BBAD32300F239B1;
+			remoteInfo = Taxis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC0785652BBAD32300F239B1 /* Taxis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taxis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0785682BBAD32300F239B1 /* TaxisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxisApp.swift; sourceTree = "<group>"; };
+		AC07856A2BBAD32300F239B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC07856C2BBAD32300F239B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC07856F2BBAD32300F239B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC0785752BBAD32300F239B1 /* TaxisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0785792BBAD32300F239B1 /* TaxisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxisTests.swift; sourceTree = "<group>"; };
+		AC07857F2BBAD32300F239B1 /* TaxisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0785832BBAD32300F239B1 /* TaxisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxisUITests.swift; sourceTree = "<group>"; };
+		AC0785852BBAD32300F239B1 /* TaxisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC0785982BBAD3DB00F239B1 /* one.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = one.swift; sourceTree = "<group>"; };
+		AC07859A2BBAD3E500F239B1 /* two.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = two.swift; sourceTree = "<group>"; };
+		AC07859C2BBAD3EB00F239B1 /* three.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = three.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC0785622BBAD32300F239B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0785722BBAD32300F239B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC07857C2BBAD32300F239B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC07855C2BBAD32300F239B1 = {
+			isa = PBXGroup;
+			children = (
+				AC0785672BBAD32300F239B1 /* Taxis */,
+				AC0785782BBAD32300F239B1 /* TaxisTests */,
+				AC0785822BBAD32300F239B1 /* TaxisUITests */,
+				AC0785662BBAD32300F239B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC0785662BBAD32300F239B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC0785652BBAD32300F239B1 /* Taxis.app */,
+				AC0785752BBAD32300F239B1 /* TaxisTests.xctest */,
+				AC07857F2BBAD32300F239B1 /* TaxisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC0785672BBAD32300F239B1 /* Taxis */ = {
+			isa = PBXGroup;
+			children = (
+				AC0785932BBAD34E00F239B1 /* Application */,
+				AC0785942BBAD39A00F239B1 /* Data */,
+				AC07856A2BBAD32300F239B1 /* ContentView.swift */,
+				AC07856C2BBAD32300F239B1 /* Assets.xcassets */,
+				AC07856E2BBAD32300F239B1 /* Preview Content */,
+			);
+			path = Taxis;
+			sourceTree = "<group>";
+		};
+		AC07856E2BBAD32300F239B1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC07856F2BBAD32300F239B1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC0785782BBAD32300F239B1 /* TaxisTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0785792BBAD32300F239B1 /* TaxisTests.swift */,
+			);
+			path = TaxisTests;
+			sourceTree = "<group>";
+		};
+		AC0785822BBAD32300F239B1 /* TaxisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0785832BBAD32300F239B1 /* TaxisUITests.swift */,
+				AC0785852BBAD32300F239B1 /* TaxisUITestsLaunchTests.swift */,
+			);
+			path = TaxisUITests;
+			sourceTree = "<group>";
+		};
+		AC0785932BBAD34E00F239B1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				AC0785682BBAD32300F239B1 /* TaxisApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		AC0785942BBAD39A00F239B1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AC0785952BBAD3A500F239B1 /* Repositories */,
+				AC0785962BBAD3B000F239B1 /* Models */,
+				AC0785972BBAD3C200F239B1 /* Services */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AC0785952BBAD3A500F239B1 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				AC0785982BBAD3DB00F239B1 /* one.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		AC0785962BBAD3B000F239B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC07859A2BBAD3E500F239B1 /* two.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC0785972BBAD3C200F239B1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AC07859C2BBAD3EB00F239B1 /* three.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC0785642BBAD32300F239B1 /* Taxis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0785892BBAD32300F239B1 /* Build configuration list for PBXNativeTarget "Taxis" */;
+			buildPhases = (
+				AC0785612BBAD32300F239B1 /* Sources */,
+				AC0785622BBAD32300F239B1 /* Frameworks */,
+				AC0785632BBAD32300F239B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Taxis;
+			productName = Taxis;
+			productReference = AC0785652BBAD32300F239B1 /* Taxis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC0785742BBAD32300F239B1 /* TaxisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC07858C2BBAD32300F239B1 /* Build configuration list for PBXNativeTarget "TaxisTests" */;
+			buildPhases = (
+				AC0785712BBAD32300F239B1 /* Sources */,
+				AC0785722BBAD32300F239B1 /* Frameworks */,
+				AC0785732BBAD32300F239B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0785772BBAD32300F239B1 /* PBXTargetDependency */,
+			);
+			name = TaxisTests;
+			productName = TaxisTests;
+			productReference = AC0785752BBAD32300F239B1 /* TaxisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC07857E2BBAD32300F239B1 /* TaxisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC07858F2BBAD32300F239B1 /* Build configuration list for PBXNativeTarget "TaxisUITests" */;
+			buildPhases = (
+				AC07857B2BBAD32300F239B1 /* Sources */,
+				AC07857C2BBAD32300F239B1 /* Frameworks */,
+				AC07857D2BBAD32300F239B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0785812BBAD32300F239B1 /* PBXTargetDependency */,
+			);
+			name = TaxisUITests;
+			productName = TaxisUITests;
+			productReference = AC07857F2BBAD32300F239B1 /* TaxisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC07855D2BBAD32300F239B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					AC0785642BBAD32300F239B1 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					AC0785742BBAD32300F239B1 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AC0785642BBAD32300F239B1;
+					};
+					AC07857E2BBAD32300F239B1 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AC0785642BBAD32300F239B1;
+					};
+				};
+			};
+			buildConfigurationList = AC0785602BBAD32300F239B1 /* Build configuration list for PBXProject "Taxis" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC07855C2BBAD32300F239B1;
+			productRefGroup = AC0785662BBAD32300F239B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0785642BBAD32300F239B1 /* Taxis */,
+				AC0785742BBAD32300F239B1 /* TaxisTests */,
+				AC07857E2BBAD32300F239B1 /* TaxisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC0785632BBAD32300F239B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0785702BBAD32300F239B1 /* Preview Assets.xcassets in Resources */,
+				AC07856D2BBAD32300F239B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0785732BBAD32300F239B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC07857D2BBAD32300F239B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC0785612BBAD32300F239B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC07856B2BBAD32300F239B1 /* ContentView.swift in Sources */,
+				AC0785992BBAD3DB00F239B1 /* one.swift in Sources */,
+				AC07859B2BBAD3E500F239B1 /* two.swift in Sources */,
+				AC07859D2BBAD3EB00F239B1 /* three.swift in Sources */,
+				AC0785692BBAD32300F239B1 /* TaxisApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0785712BBAD32300F239B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC07857A2BBAD32300F239B1 /* TaxisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC07857B2BBAD32300F239B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0785862BBAD32300F239B1 /* TaxisUITestsLaunchTests.swift in Sources */,
+				AC0785842BBAD32300F239B1 /* TaxisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC0785772BBAD32300F239B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0785642BBAD32300F239B1 /* Taxis */;
+			targetProxy = AC0785762BBAD32300F239B1 /* PBXContainerItemProxy */;
+		};
+		AC0785812BBAD32300F239B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0785642BBAD32300F239B1 /* Taxis */;
+			targetProxy = AC0785802BBAD32300F239B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC0785872BBAD32300F239B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC0785882BBAD32300F239B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC07858A2BBAD32300F239B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Taxis/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Taxis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC07858B2BBAD32300F239B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Taxis/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Taxis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC07858D2BBAD32300F239B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.TaxisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taxis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Taxis";
+			};
+			name = Debug;
+		};
+		AC07858E2BBAD32300F239B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.TaxisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taxis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Taxis";
+			};
+			name = Release;
+		};
+		AC0785902BBAD32300F239B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.TaxisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Taxis;
+			};
+			name = Debug;
+		};
+		AC0785912BBAD32300F239B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.TaxisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Taxis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC0785602BBAD32300F239B1 /* Build configuration list for PBXProject "Taxis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0785872BBAD32300F239B1 /* Debug */,
+				AC0785882BBAD32300F239B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0785892BBAD32300F239B1 /* Build configuration list for PBXNativeTarget "Taxis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC07858A2BBAD32300F239B1 /* Debug */,
+				AC07858B2BBAD32300F239B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC07858C2BBAD32300F239B1 /* Build configuration list for PBXNativeTarget "TaxisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC07858D2BBAD32300F239B1 /* Debug */,
+				AC07858E2BBAD32300F239B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC07858F2BBAD32300F239B1 /* Build configuration list for PBXNativeTarget "TaxisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0785902BBAD32300F239B1 /* Debug */,
+				AC0785912BBAD32300F239B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC07855D2BBAD32300F239B1 /* Project object */;
+}
