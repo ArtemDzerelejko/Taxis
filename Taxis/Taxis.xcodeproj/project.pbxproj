@@ -14,9 +14,6 @@
 		AC07857A2BBAD32300F239B1 /* TaxisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0785792BBAD32300F239B1 /* TaxisTests.swift */; };
 		AC0785842BBAD32300F239B1 /* TaxisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0785832BBAD32300F239B1 /* TaxisUITests.swift */; };
 		AC0785862BBAD32300F239B1 /* TaxisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0785852BBAD32300F239B1 /* TaxisUITestsLaunchTests.swift */; };
-		AC0785992BBAD3DB00F239B1 /* one.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0785982BBAD3DB00F239B1 /* one.swift */; };
-		AC07859B2BBAD3E500F239B1 /* two.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC07859A2BBAD3E500F239B1 /* two.swift */; };
-		AC07859D2BBAD3EB00F239B1 /* three.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC07859C2BBAD3EB00F239B1 /* three.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,9 +44,6 @@
 		AC07857F2BBAD32300F239B1 /* TaxisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0785832BBAD32300F239B1 /* TaxisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxisUITests.swift; sourceTree = "<group>"; };
 		AC0785852BBAD32300F239B1 /* TaxisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxisUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		AC0785982BBAD3DB00F239B1 /* one.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = one.swift; sourceTree = "<group>"; };
-		AC07859A2BBAD3E500F239B1 /* two.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = two.swift; sourceTree = "<group>"; };
-		AC07859C2BBAD3EB00F239B1 /* three.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = three.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +149,6 @@
 		AC0785952BBAD3A500F239B1 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
-				AC0785982BBAD3DB00F239B1 /* one.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -163,7 +156,6 @@
 		AC0785962BBAD3B000F239B1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				AC07859A2BBAD3E500F239B1 /* two.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -171,7 +163,6 @@
 		AC0785972BBAD3C200F239B1 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				AC07859C2BBAD3EB00F239B1 /* three.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -307,9 +298,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC07856B2BBAD32300F239B1 /* ContentView.swift in Sources */,
-				AC0785992BBAD3DB00F239B1 /* one.swift in Sources */,
-				AC07859B2BBAD3E500F239B1 /* two.swift in Sources */,
-				AC07859D2BBAD3EB00F239B1 /* three.swift in Sources */,
 				AC0785692BBAD32300F239B1 /* TaxisApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
